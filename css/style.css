@@ -105,8 +105,8 @@ body {
 }
 
 h1 {
-  font-family: 'Paytone One', sans-serif !important;
-  font-size: 4em;
+  font-family: 'Poiret One', sans-serif !important;
+  font-size: 5em;
   color: #FFF;
   letter-spacing: px;
   margin-bottom: auto;
@@ -117,20 +117,20 @@ h1.dark {
 }
 
 h2.dark {
-  font-family: 'Paytone One', sans-serif !important;
+  font-family: 'Poiret One', sans-serif !important;
   font-size: 2em;
   color: #033248;
 }
 
 .header-black {
-  font-family: 'Paytone One', sans-serif !important;
-  font-size: 1.5em;
+  font-family: 'Poiret One', sans-serif !important;
+  font-size: 2em;
   text-align: center;
   color: #033248;
 }
 
 h3 {
-  font-family: 'Paytone One', sans-serif !important;
+  font-family: 'Poiret One', sans-serif !important;
   font-size: 1.7em;
   color: #033248;
 }
@@ -153,6 +153,7 @@ p {
 
 .body-dark {
     color: #033248;
+    font-weight: 300;
 
 }
 
@@ -178,6 +179,7 @@ a {
     color: #CFCFCF;
     font-family: 'Open sans';
     text-decoration: none;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -364,7 +366,7 @@ a {
 .service h3 {
   color: #033248;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.7em;
   margin-top: 2em;
 }
 

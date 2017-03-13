@@ -1,6 +1,11 @@
 /* HEADER TEXT * importing fonts in my file*/
 
 
+@font-face {
+  font-family: 'Market Deco';
+  src: url(../fonts/Market_Deco.ttf);
+}
+
 
 *,
 *:before,
@@ -89,17 +94,17 @@ section {
 body {
   background-size: cover;
   color: #fff;
-  font-family: 'open sans', sans-serif !important;
+  font-family: 'pacifico', sans-serif !important;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.2em;
 }
 
 h1 {
-  font-family: 'Montserrat', serif !important;
-  font-size: 3em;
-  text-transform: uppercase;
+  font-family: 'pacifico', serif !important;
+  font-size: 5em;
   color: #fff;
+  letter-spacing: px;
   margin-bottom: auto;
 }
 
@@ -108,47 +113,47 @@ h1.dark {
 }
 
 h2.dark {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'pacifico', sans-serif !important;
   font-size: 2em;
-  text-transform: uppercase;
-  color: #222;
+  color: #033248;
 }
 
 .header-black {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'pacifico', sans-serif !important;
   font-size: 2em;
-  text-transform: uppercase;
   text-align: center;
-  color: #222;
+  color: #033248;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'pacifico', sans-serif !important;
   font-size: 1.7em;
-  text-transform: uppercase;
   color: #FFF;
 }
 
 h4 {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Market Deco', sans-serif !important;
   font-size: 1.2em;
   letter-spacing: 4px;
-  text-transform: uppercase;
   color: #fff;
 }
 
 p {
-  font-family: 'open sans', sans-serif !important;
-  font-size: 1.1em;
+  font-family: 'Market Deco', sans-serif !important;
+  font-size: 1.4em;
   font-weight: normal;
   line-height: 1.7em;
   margin: auto;
-  letter-spacing: 1.2px;
-  color: #FFF;
+  color: #fff;
+}
+
+.body-dark {
+    color: #033248;
+
 }
 
 p-black {
-  font-family: 'open sans', sans-serif !important;
+  font-family: 'Market Deco', sans-serif !important;
   color: #222;
   font-size: 1.5em;
   font-weight: 100;
@@ -167,7 +172,7 @@ ul {
 
 a {
     color: #CFCFCF;
-    font-family: Open Sans;
+    font-family: 'Market Deco';
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -362,7 +367,7 @@ a {
 }
 
 .service p {
-  font-family: 'Mulis', sans-serif;
+  font-family: 'Market Deco', sans-serif;
   color: #C5C5C5;
   text-align: center;
   font-size: .8em;
@@ -419,7 +424,7 @@ a {
 }
 
 .specialize-item p {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Market Deco', sans-serif;
   color: #C5C5C5;
   text-align: center;
   font-size: .8em;
